@@ -453,6 +453,32 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/gunnar/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/oneplus/gunnar/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/oneplus/gunnar/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVACFS_Configuration.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
+    vendor/oneplus/gunnar/proprietary/odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
     vendor/oneplus/gunnar/proprietary/odm/etc/sensor/config/alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/alsps.json \
     vendor/oneplus/gunnar/proprietary/odm/etc/sensor/config/holi_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_ak991x_0.json \
     vendor/oneplus/gunnar/proprietary/odm/etc/sensor/config/holi_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_alsps.json \
@@ -730,6 +756,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     libc++_shared \
     vendor.oplus.hardware.performance@1.0 \
+    liblvimfs \
+    liblvimfs_wrapper \
     anc.capacitive.hal \
     anc.hal \
     com.qti.sensor.gc02m1 \
