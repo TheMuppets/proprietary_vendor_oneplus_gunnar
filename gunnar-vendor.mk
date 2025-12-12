@@ -857,9 +857,9 @@ PRODUCT_PACKAGES += \
     libwatermark_photo \
     vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.orms@1.0 \
-    libarcsoft_portraitsn_hvx_skel_bd368 \
-    libc++.so \
-    libc++abi.so \
+    odm_lib_rfsa_adsp_libarcsoft_portraitsn_hvx_skel_bd368_so \
+    odm_lib_rfsa_adsp_libc++_so_1 \
+    odm_lib_rfsa_adsp_libc++abi_so_1 \
     manifest_oplus_fingerprint.xml \
     hvdcp_opti \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \

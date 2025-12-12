@@ -8949,7 +8949,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "libarcsoft_portraitsn_hvx_skel_bd368",
+    name: "odm_lib_rfsa_adsp_libarcsoft_portraitsn_hvx_skel_bd368_so",
     filename: "libarcsoft_portraitsn_hvx_skel_bd368.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_bd368.so",
@@ -8958,7 +8958,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libc++.so",
+    name: "odm_lib_rfsa_adsp_libc++_so_1",
     filename: "libc++.so.1",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libc++.so.1",
@@ -8967,7 +8967,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libc++abi.so",
+    name: "odm_lib_rfsa_adsp_libc++abi_so_1",
     filename: "libc++abi.so.1",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libc++abi.so.1",
