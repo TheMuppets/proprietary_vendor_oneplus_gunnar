@@ -8579,6 +8579,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libolc_vnd",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libolc_vnd.so",
+            ],
+            shared_libs: [
+                "vendor.oplus.hardware.olc2-V1-ndk_platform",
+                "libutils",
+                "liblog",
+                "libhidlbase",
+                "libhidltransport",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libormshalclient",
     owner: "oneplus",
     strip: {

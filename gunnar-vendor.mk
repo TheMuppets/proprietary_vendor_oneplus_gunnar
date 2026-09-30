@@ -843,6 +843,7 @@ PRODUCT_PACKAGES += \
     libhyperlapse \
     libml_util \
     libmpbase \
+    libolc_vnd \
     libormshalclient \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
