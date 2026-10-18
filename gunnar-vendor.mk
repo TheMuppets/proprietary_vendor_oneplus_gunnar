@@ -845,6 +845,7 @@ PRODUCT_PACKAGES += \
     libmpbase \
     libolc_vnd \
     libormshalclient \
+    libosenseaidlhalclient \
     libsnpe_dsp_domains_v2 \
     libsnpe_dsp_domains_v3 \
     libsnpe_loader \
